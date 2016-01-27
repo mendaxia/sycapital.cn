@@ -30,12 +30,12 @@
 			<a href="#" id="pull"></a><!-- 响应式导航 -->
 			<ul class="nav menu">
 				<li class="item-102 current active"><a href="/" >首页</a></li>
-				<li class="item-104"><a href="#about-us" >关于我们</a></li>
-				<li class="item-103"><a href="#team" >管理团队</a></li>
-				<li class="item-105"><a href="#portfolio" >投资组合</a></li>
+				<li class="item-104"><a href="/#about-us" >关于我们</a></li>
+				<li class="item-103"><a href="/#team" >管理团队</a></li>
+				<li class="item-105"><a href="/#portfolio" >投资组合</a></li>
 				<li class="item-105"><a href="/category/news" >松源动态</a></li>
 				<li class="item-183"><a href="/recruitment" >加入我们</a></li>
-				<li class="item-183"><a href="#contact" >联系我们</a></li>
+				<li class="item-183"><a href="/#contact" >联系我们</a></li>
 				<li id="lan"><a href="/en">English</a></li>
 			</ul>
 		</div>
