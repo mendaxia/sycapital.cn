@@ -13,15 +13,19 @@
 
 get_header(); ?>
 
-<div id="news" class="moduletable">
+<div id="job" class="moduletable">
   <div class="custom">
 	<div class="full-width" style="background:#fff;">
-		<div class="container" style="width:80%;">
+		<div class="container">
 		  <div class="text-block">
 			<h2><?php the_title(); ?></h2>
-			<div>
-                <?php the_content(); ?>
-            </div>
+        </div>
+        <div class="job">
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+the_content();
+endwhile; else: ?>
+<p>Sorry, no posts matched your criteria.</p>
+<?php endif; ?>
 		  </div>
 	  </div>
 	</div>
