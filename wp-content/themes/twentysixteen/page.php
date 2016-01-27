@@ -18,8 +18,10 @@ get_header(); ?>
 	<div class="full-width" style="background:#fff;">
 		<div class="container" style="width:80%;">
 		  <div class="text-block">
-			<h2>新闻</h2>
-			<div></div>
+			<h2><?php the_title(); ?></h2>
+			<div>
+                <?php the_content(); ?>
+            </div>
 		  </div>
 	  </div>
 	</div>
