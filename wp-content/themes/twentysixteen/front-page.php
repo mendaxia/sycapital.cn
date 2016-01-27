@@ -47,7 +47,7 @@
               <li class="item-103"><a href="#team" >管理团队</a></li>
               <li class="item-105"><a href="#portfolio" >投资组合</a></li>
               <li class="item-105"><a href="/category/news" >松源动态</a></li>
-              <li class="item-183"><a href="job.html" >加入我们</a></li>
+              <li class="item-183"><a href="/recruitment" >加入我们</a></li>
               <li class="item-183"><a href="#contact" >联系我们</a></li>
               <li id="lan"><a href="/en">English</a></li>
             </ul>
